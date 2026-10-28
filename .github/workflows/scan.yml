@@ -24,7 +24,7 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       # ---- Strategy config (non-secret; edit here to retune the cloud bot) ----
-      WATCHLIST: "SPY,QQQ,BTC-USD,ETH-USD,NVDA,AAPL,TSLA,MSFT"
+      WATCHLIST: "BTC-USD,ETH-USD,NVDA"
       BAR_INTERVAL: "15m"
       LOOKBACK_PERIOD: "60d"
       RSI_PERIOD: "14"
